@@ -1,0 +1,35 @@
+#recorderUI {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    text-align: center;
+}
+
+.xTraLarge {
+    font-size: 7em;
+}
+
+#recorderUI .row {
+    height: calc(25% - 10px);
+}
+
+#recorderUI .row:last-of-type {
+    height: 40px;
+}
+
+#recorderUI .row:last-of-type button {
+    width: 45%;
+    display: inline-block;
+}
+
+#recorderUI .row .centerTextY {
+    height: calc(100% - 39px);
+}
+
+form button {
+    margin-top: 5px;
+}
